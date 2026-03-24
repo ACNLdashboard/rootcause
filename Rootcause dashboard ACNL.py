@@ -247,7 +247,7 @@ if uploaded_file:
                     # ==========================================
                     st.subheader("Actual vs. Scheduled Timeline")
                     with st.expander("ⓘ Info"): 
-                        st.write("Gantt view. Grey = Plan, Colored = Actual. AMS margin: 45m (Black/Red), Others: 15m (Red).")
+                        st.write("Gantt view. Grey = Plan, Colored = Actual. AMS margin: 30m (Black/Red), Others: 15m (Red).")
                         st.markdown("⚠️ **Warning Triangle:** Visible between scheduled legs when a planning gap (Scheduled Turnaround) of **40 minutes or more** is detected.")
                     
                     fig_g = go.Figure()
