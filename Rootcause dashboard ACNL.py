@@ -148,7 +148,7 @@ with st.sidebar:
     st.subheader("Data Management")
     uploaded_file = st.file_uploader("Upload CSV File", type=['csv'])
 
-col_title, col_logo = st.columns([12, 1])
+col_title, col_logo = st.columns([8, 1])
 with col_title:
     st.title("Flight Operations Performance Insights")
 with col_logo:
