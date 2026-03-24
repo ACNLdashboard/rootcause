@@ -153,7 +153,7 @@ with col_title:
     st.title("Flight Operations Performance Insights")
 with col_logo:
     try:
-        st.image("/Users/ennovankeulen/Desktop/Data analyse-ACNL/logo-2-removebg-preview.png", use_container_width=True)
+        st.image("logo-2-removebg-preview.png", use_container_width=True)
     except:
         pass
 
