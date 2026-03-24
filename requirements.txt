@@ -1,4 +1,7 @@
 streamlit
 pandas
+requests
+plotly
 scikit-learn
-matplotlib
+numpy
+fpdf
